@@ -1,0 +1,14 @@
+class Test{
+public static void main(String[] args){
+private int a = 1;
+private int b = 2;
+int sum = sum(a,b);
+System.out.println(sum);
+}
+
+public static int sum(int a,intb){
+  int sum = 0;
+  sum = a + b;
+  return sum;
+  }
+}
